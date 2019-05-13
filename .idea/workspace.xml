@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="347cddfc-9cfc-4fe9-bdd3-eaad98a135cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/hibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/HibernateJavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/HibernateXmlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/JPAHibernateXmlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/ExplorersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/StateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/ToursDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/impl/AdminDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/impl/ExplorersDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/impl/StateDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/dao/impl/ToursDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/model/Explorers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/model/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/model/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/java/hibernate/model/Tour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/HibernateJavaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/HibernateXmlConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/JPAHibernateXmlConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/StateDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/ToursDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/impl/AdminDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/impl/StateDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/dao/impl/ToursDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/model/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/model/Package.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/model/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate/model/Tour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/libraries/javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/libraries/javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/java/com/itersive/sda/presence/AnotherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/java/com/itersive/sda/presence/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/java/com/itersive/sda/presence/Zadanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/test/count.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/test/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/test/gameOver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/test/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/test/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp/src/main/webapp/zadanie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/java/projectController/DataBaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/java/projectController/ProjectsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/java/projectController/ProjectsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/aboutme.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/include.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/myprojects.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/scripts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/src/main/webapp/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/src/main/java/statki/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/src/main/java/statki/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/src/main/java/statki/controller/MapConroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/src/main/java/statki/model/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statki/src/main/java/statki/model/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/untitled3.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/GetScanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/ExchangingRates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/Calculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/Currency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/XMLMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/HttpURLConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/USDExchangeRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExchangeRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Currency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/URLConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AvarageBuyingRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GetScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExchangingRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/parser/nbp/XMLMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/parser/nbp/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/parser/nbp/GetScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/parser/nbp/ExchangingRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/parser/nbp/Calculations.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nbp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZadanieJavaDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZadanieJavaDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.parser.nbp.MainClass" />
+      <module name="ZadanieJavaDeveloper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="347cddfc-9cfc-4fe9-bdd3-eaad98a135cc" name="Default Changelist" comment="" />
+      <created>1557417498500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557417498500</updated>
+      <workItem from="1557417582877" duration="11852000" />
+      <workItem from="1557509193910" duration="6043000" />
+      <workItem from="1557522277009" duration="1275000" />
+      <workItem from="1557559324679" duration="68000" />
+      <workItem from="1557562574889" duration="876000" />
+      <workItem from="1557580666945" duration="1916000" />
+      <workItem from="1557600250947" duration="9737000" />
+      <workItem from="1557611177354" duration="585000" />
+      <workItem from="1557611866616" duration="241000" />
+      <workItem from="1557647514715" duration="5517000" />
+      <workItem from="1557666487706" duration="2778000" />
+      <workItem from="1557680081607" duration="3088000" />
+      <workItem from="1557683275583" duration="11485000" />
+      <workItem from="1557695325206" duration="59000" />
+      <workItem from="1557771784235" duration="3337000" />
+      <workItem from="1557775311339" duration="768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59625000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="e" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1141" column="36" selection-start-line="1141" selection-start-column="36" selection-end-line="1141" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="463" selection-start-line="463" selection-end-line="463" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/org/xml/sax/InputSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#3459#3460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/org/xml/sax/helpers/LocatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4381#4382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/StandardDeviationSellingRate.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/GetScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/ExchangingRates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/Calculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/XMLMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/parser/nbp/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
