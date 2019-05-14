@@ -5,31 +5,24 @@ import java.math.RoundingMode;
 import java.util.List;
 
 public class Calculations {
-    public double getAvarage(List<Double> buyingCursesList) {
+    public double getAverage(List<Double> buyingCursesList) {
         double sum = 0;
-        double avarage;
+        double average;
         for (int i = 0; i < buyingCursesList.size(); i++) {
             sum = sum + buyingCursesList.get(i);
         }
-        avarage = sum / buyingCursesList.size();
-        double roundedAvarage = new BigDecimal(avarage).setScale(4, RoundingMode.UP).doubleValue();
-        return roundedAvarage;
+        average = sum / buyingCursesList.size();
+        double roundedAverage = new BigDecimal(average).setScale(4, RoundingMode.UP).doubleValue();
+        return roundedAverage;
     }
 
     public double getStandartDeviation(List<Double> sellingCurseList) {
-        double avarage = getAvarage(sellingCurseList);
+        double average = getAverage(sellingCurseList);
         double sum = 0;
-        double x = 0;
-        double y = 0;
-        double standartDeviation;
-        for (int i = 0; i < sellingCurseList.size(); i++) {
-            sum = sum + sellingCurseList.get(i);
-            y = avarage - sellingCurseList.get(i);
-            y = Math.pow(y, 2);
-            x = x + y;
+        for (int i = 0; i < sellingCurseList.size(); i++){
+            sum = sum + (sellingCurseList.get(i) - average) * (sellingCurseList.get(i) - average);
         }
-        x = x / sum;
-        standartDeviation = Math.sqrt(x);
+        double standartDeviation = Math.sqrt((sum/sellingCurseList.size()));
         double roundedStandartDeviation = new BigDecimal(standartDeviation).setScale(4, RoundingMode.UP).doubleValue();
         return roundedStandartDeviation;
     }

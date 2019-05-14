@@ -8,11 +8,10 @@ public class MainClass {
         try {
             rates.myURLConnection(getScanner.codeScanner(), getScanner.startDateScanner(), getScanner.endDateScanner());
             Calculations calculations = new Calculations();
-            System.out.println("Average buying rate is: " + calculations.getAvarage(rates.buyingCursesList));
+            System.out.println("Average buying rate is: " + calculations.getAverage(rates.buyingCursesList));
             System.out.println("Standard deviation of sales rates is: " + calculations.getStandartDeviation(rates.sellingCursesList));
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }

@@ -15,6 +15,7 @@ public class ExchangingRates {
     List<Double> buyingCursesList = new ArrayList<>();
     List<Double> sellingCursesList = new ArrayList<>();
 
+
     public void myURLConnection(String code, String startDate, String endDate) throws Exception {
         endDate = getNextDate(endDate);
         String url;
