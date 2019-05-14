@@ -15,7 +15,7 @@ public class ExchangingRates {
     List<Double> buyingCursesList = new ArrayList<>();
     List<Double> sellingCursesList = new ArrayList<>();
 
-
+    // method that creates url connection and get keys to parse xml files
     public void myURLConnection(String code, String startDate, String endDate) throws Exception {
         endDate = getNextDate(endDate);
         String url;
@@ -49,7 +49,7 @@ public class ExchangingRates {
             }
         }
     }
-
+    // method that parsing xml files and add to the lists sales and buying rates
     public void xmlParsing(String key, String code, String date) throws Exception {
         try {
             if (key.equals("")) {
@@ -65,13 +65,13 @@ public class ExchangingRates {
             System.out.println("incorrect format of xmlFile at this date: " + date);
         }
     }
-
+    // method that adapting ',' to '.' and creates double to rates
     public static double doubleAdapter(String toAdapt, char x) {
         String str = toAdapt.replace(x, '.');
         Double buyingCurse = new Double(str);
         return buyingCurse;
     }
-
+    // method that passing to the next date
     public static String getNextDate(String startDate) throws ParseException {
         final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         final Date date = format.parse(startDate);
@@ -80,7 +80,7 @@ public class ExchangingRates {
         calendar.add(Calendar.DAY_OF_YEAR, 1);
         return format.format(calendar.getTime());
     }
-
+    // method that split date to check what key i need
     public static String splitDate(String startDate) {
         startDate = startDate.substring(2, 10);
         String[] parts = startDate.split("-");

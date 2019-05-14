@@ -14,7 +14,7 @@ public class XMLMapping {
     private String date;
     @XmlElement(name = "pozycja")
     private List<Currency> currencies;
-
+    // get and return an object list from xml file
     public Currency getCurrencyByCode(String code) {
         for (Currency currency : currencies) {
             if (currency.getName().equals(code)) {

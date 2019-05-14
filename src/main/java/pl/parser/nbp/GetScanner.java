@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class GetScanner {
+    // getting my scanner
     public static String codeScanner() {
         Scanner scanner = new Scanner(System.in);
         String code = "";
@@ -27,7 +28,7 @@ public class GetScanner {
         }
         return code;
     }
-
+    // method that check format of start date
     public static String startDateScanner() {
         Scanner scanner = new Scanner(System.in);
         String startDate = "";
@@ -46,6 +47,7 @@ public class GetScanner {
         return startDate;
     }
 
+    // method that check format of end date
     public static String endDateScanner() {
         Scanner scanner = new Scanner(System.in);
         String endDate = "";
@@ -62,6 +64,8 @@ public class GetScanner {
         }
         return endDate;
     }
+
+    // method that check date validation
     public static boolean dateValidation(String date, Scanner scanner){
         boolean check = true;
         while (check){
